@@ -1,0 +1,127 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.11 (19/6/14)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{casual} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+\usepackage{fontawesome}
+
+\usepackage[scale=0.75]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+	\addtolength{\oddsidemargin}{-.475in}
+	\addtolength{\evensidemargin}{-.475in}
+	\addtolength{\textwidth}{1.00in}
+
+	\addtolength{\topmargin}{-.475in}
+	\addtolength{\textheight}{1.00in}
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Joseph} % Your first name
+\familyname{Allen} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\title{Curriculum Vitae}
+\address{Block C Apt 38 Alto Sillivan Way}{Salford, M36GD}
+\mobile{07871556664}
+\email{joseph.allen.1994@hotmail.com}
+\homepage{uk.linkedin.com/in/josephrossallen/ }{}
+\homepage{uk.linkedin.com/in/josephrossallen/ }{}
+
+% The first argument is the URL for the clickable link, the second argument is the URL displayed in the template - this allows special characters to be displayed such as the tilde in this example
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	COVER LETTER
+%----------------------------------------------------------------------------------------
+
+% To remove the cover letter, comment out this entire block
+
+\clearpage
+
+\recipient{HR Department}{Cantarus Manchester\\Pall Mall Court\\61-67 King Street,Manchester} % Letter recipient
+\date{\today} % Letter date
+\opening{Dear Sir or Madam,} % Opening greeting
+\closing{Sincerely yours,} % Closing phrase
+\enclosure[Attached]{curriculum vit\ae{}} % List of enclosed documents
+
+\makecvtitle % Print the CV title
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+\cventry{2013--Current}{Bachelor of Computer Science and Mathematics with IE}{The University of Manchester}{}{\textit{First year  -- 73.1\%}}{Currently in third year.}
+\cventry{2011--2013}{A-level}{Tanglin Trust School}{Singapore}{Computer Science - A , Mathematics - A, Further Mathematics - B, Physics - B, AS Economics - B}{}  % Arguments not required can be left empty
+
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Experience}
+
+
+\cventry{2015--Current}{Foundation UI Developer}{LateRooms.com}{Manchester}{}{Personally managed the creation of all new cobrands for the company as well as the removal of redundant cobrands. I then developed a tool which automated this task for me. We use Agile methodologies to work in a large team without conflict in HTML,SCSS and JS. }
+
+%------------------------------------------------
+
+\cventry{2013--Current}{Website Developer}{AD Solutions(Co-Founder)}{Manchester}{}{Set up my own freelance business with a classmate over the Summer.I aspire to improve my skills and help this business become very successful.}
+
+%------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Computer skills}
+
+\cvitem{Basic}{\textsc{php},\textsc{python}}
+\cvitem{Intermediate}{\textsc{Java}, \textsc{html},\textsc{css},\textsc{MySQL},\textsc{Visual Basic}, \LaTeX, \textsc{JavaScript}, \textsc{R}, \textsc{Git}}
+
+
+%----------------------------------------------------------------------------------------
+%	Projects
+%----------------------------------------------------------------------------------------
+
+\section{Projects}
+
+\cventry{2016}{Minshara Mask}{}{}{}{I worked independently to learn Processing to create an open-source tool which calculates the changes in Live Video to by used by Digital Artists.}
+
+\cventry{2014}{Pair}{}{}{}{I worked in a group of six members and we created a product together called Pair. Pair is a Peer-To-Peer educational application with the intentions of closing the education gap on a global scale, The project took about 6 months and I learnt how to manage my team effectively and found my passion for web development, inspiring me to create my business.}
+
+\cventry{2012}{Extended Essay}{"To what extent is there a mathematical equation for beauty?"}{}{}{I worked independently researching the Golden Ratio and its occurrences in nature and decided to see by performing a survey on over a hundred individuals aged 3-18 whether I could prove that there was a mathematical equation for beauty, I utilised data analysis skills to then extrapolate information from the data and wrote a 5000 word report on the topic and presented my findings to a group of 30 people.}
+\end{document}
