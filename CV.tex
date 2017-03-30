@@ -1,35 +1,9 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% "ModernCV" CV and Cover Letter
-% LaTeX Template
-% Version 1.11 (19/6/14)
-%
-% This template has been downloaded from:
-% http://www.LaTeXTemplates.com
-%
-% Original author:
-% Xavier Danaux (xdanaux@gmail.com)
-%
-% License:
-% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
-%
-% Important note:
-% This template requires the moderncv.cls and .sty files to be in the same 
-% directory as this .tex file. These files provide the resume style and themes 
-% used for structuring the document.
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%----------------------------------------------------------------------------------------
-%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
-%----------------------------------------------------------------------------------------
-
 \documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
 
 \moderncvstyle{casual} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
 \moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
 
 \usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
-\usepackage{fontawesome}
 
 \usepackage[scale=0.75]{geometry} % Reduce document margins
 %\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
@@ -51,17 +25,16 @@
 
 % All information in this block is optional, comment out any lines you don't need
 \title{Curriculum Vitae}
-\address{Block C Apt 38 Alto Sillivan Way}{Salford, M36GD}
+\address{Block C Alto}{Salford, M3 6GD}
 \mobile{07871556664}
 \email{joseph.allen.1994@hotmail.com}
-\homepage{uk.linkedin.com/in/josephrossallen/ }{}
-\homepage{uk.linkedin.com/in/josephrossallen/ }{}
-
-% The first argument is the URL for the clickable link, the second argument is the URL displayed in the template - this allows special characters to be displayed such as the tilde in this example
+\homepage{github.com/joezcool02}{} % The first argument is the URL for the clickable link, the second argument is the URL displayed in the template - this allows special characters to be displayed such as the tilde in this example
 
 %----------------------------------------------------------------------------------------
 
 \begin{document}
+
+
 
 %----------------------------------------------------------------------------------------
 %	COVER LETTER
@@ -71,11 +44,34 @@
 
 \clearpage
 
-\recipient{HR Department}{Cantarus Manchester\\Pall Mall Court\\61-67 King Street,Manchester} % Letter recipient
+\recipient{BOLD TEXT REPLACE}{COMPANY NAME\\ADDRESS 1\\ADDRESS 2,CITY} % Letter recipient
 \date{\today} % Letter date
 \opening{Dear Sir or Madam,} % Opening greeting
 \closing{Sincerely yours,} % Closing phrase
 \enclosure[Attached]{curriculum vit\ae{}} % List of enclosed documents
+
+\makelettertitle % Print letter title
+
+I am pleased to present my application for a position at COMPANY NAME. MAYBE WRITE SOMETHING IMPORTANT TO THE INDIVIDUAL APPLICATION HERE.
+
+I am a Manchester based Web Developer who studied Computer Science and Maths with Industrial Experience at the University of Manchester. I have been a Web Developer since my first year at University where I decided to start my own Web Development firm and I am now aspiring to become a Lead Developer. I spend my free time doing a variety of Digital things including exploring Digital Art, Digital Marketing and participating in Data Science competitions.
+
+I am a strong believer in AGILE methodologies, while appreciating that other methods have their place, and have used SCRUM and Kanban professionally. I hold a firm belief that User Experience and Data Science are the key to the future of Web Development and am always keen to bring these aspects into my development when appropriate. I am confident in running Retrospectives, Stand-ups and reflective meetings as I believe these are vital for improving team happiness and love opportunities to apply these methods.
+
+I have organized events of many scale from small Digital Art meet-ups to much larger scale University events with over 500 attendees. I am always eager to take part in events such as MancJS and UXMentors and bring any learnings back into the business where possible.
+
+I am always looking for smarter ways to work and have welcomed Less or Sass as replacements for CSS and am currently enjoying the turbulent time the Front-end frameworks are experiencing, personally enjoying React as I have a strong Node background.
+
+Thank you very much for your time and I am thankful for the opportunity of being considered for this position.
+
+Hope to hear from you soon.
+
+\makeletterclosing % Print letter signature
+
+%----------------------------------------------------------------------------------------
+\clearpage
+
+
 
 \makecvtitle % Print the CV title
 
@@ -84,7 +80,7 @@
 %----------------------------------------------------------------------------------------
 
 \section{Education}
-\cventry{2013--Current}{Bachelor of Computer Science and Mathematics with IE}{The University of Manchester}{}{\textit{First year  -- 73.1\%}}{Currently in third year.}
+\cventry{2013--Current}{Bachelor of Computer Science and Mathematics}{The University of Manchester}{}{\textit{First year  -- 73.1\%}}{Currently in second year.}
 \cventry{2011--2013}{A-level}{Tanglin Trust School}{Singapore}{Computer Science - A , Mathematics - A, Further Mathematics - B, Physics - B, AS Economics - B}{}  % Arguments not required can be left empty
 
 
@@ -95,11 +91,14 @@
 \section{Experience}
 
 
-\cventry{2015--Current}{Foundation UI Developer}{LateRooms.com}{Manchester}{}{Personally managed the creation of all new cobrands for the company as well as the removal of redundant cobrands. I then developed a tool which automated this task for me. We use Agile methodologies to work in a large team without conflict in HTML,SCSS and JS. }
+\cventry{2013--Current}{Tutor}{\textsc{Tutor Trust}}{Manchester}{}{I go into local schools and teach children the fundamentals of programming using the Scratch programming language. I have a passion for teaching and learning and this is critical as Computer Science is constantly evolving.
+}
 
 %------------------------------------------------
 
-\cventry{2013--Current}{Website Developer}{AD Solutions(Co-Founder)}{Manchester}{}{Set up my own freelance business with a classmate over the Summer.I aspire to improve my skills and help this business become very successful.}
+\cventry{2013--Current}{Website Developer}{AD Solutions(Co-Founder)}{Manchester}{}{Set up my own business with a classmate over the Summer, which can be found at the URL \url{allenduxburysolutions.co.uk} (currently a work in progress). I aspire to improve my skills and help this business become very successful.}
+
+\cventry{2010--2011}{Summer Intern}{\textsc{Quest Software}}{Singapore}{}{I worked in a team of three to design and implement a solution to digitise all the contact information of the clients and create a search macro that helped the company sort through CVs. At the end of the internship I then gave a demonstration on how to use our solution to the heads of departments.}
 
 %------------------------------------------------
 
@@ -109,8 +108,8 @@
 
 \section{Computer skills}
 
-\cvitem{Basic}{\textsc{php},\textsc{python}}
-\cvitem{Intermediate}{\textsc{Java}, \textsc{html},\textsc{css},\textsc{MySQL},\textsc{Visual Basic}, \LaTeX, \textsc{JavaScript}, \textsc{R}, \textsc{Git}}
+\cvitem{Basic}{\textsc{JavaScript},\textsc{php}, GitHub}
+\cvitem{Intermediate}{\textsc{Java}, \textsc{html},\textsc{css},\textsc{MySQL},\textsc{Visual Basic}, \LaTeX}
 
 
 %----------------------------------------------------------------------------------------
@@ -119,9 +118,13 @@
 
 \section{Projects}
 
-\cventry{2016}{Minshara Mask}{}{}{}{I worked independently to learn Processing to create an open-source tool which calculates the changes in Live Video to by used by Digital Artists.}
-
 \cventry{2014}{Pair}{}{}{}{I worked in a group of six members and we created a product together called Pair. Pair is a Peer-To-Peer educational application with the intentions of closing the education gap on a global scale, The project took about 6 months and I learnt how to manage my team effectively and found my passion for web development, inspiring me to create my business.}
 
 \cventry{2012}{Extended Essay}{"To what extent is there a mathematical equation for beauty?"}{}{}{I worked independently researching the Golden Ratio and its occurrences in nature and decided to see by performing a survey on over a hundred individuals aged 3-18 whether I could prove that there was a mathematical equation for beauty, I utilised data analysis skills to then extrapolate information from the data and wrote a 5000 word report on the topic and presented my findings to a group of 30 people.}
+
+\cventry{2012}{Minshara Solar System Simulation}{}{}{}{I worked independently to learn Visual Basic and produce a product to be used by the Physics department in my school to aid teaching, I fully documented the project using The Waterfall Model and from this i appreciated the importance of analysis and design in the production of an end product.}
+
+
+
+
 \end{document}
