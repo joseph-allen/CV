@@ -1,0 +1,129 @@
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{casual} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage[scale=0.75]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+	\addtolength{\oddsidemargin}{-.475in}
+	\addtolength{\evensidemargin}{-.475in}
+	\addtolength{\textwidth}{1.00in}
+
+	\addtolength{\topmargin}{-.475in}
+	\addtolength{\textheight}{1.00in}
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Joseph} % Your first name
+\familyname{Allen} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\title{Curriculum Vitae}
+\address{Block C Alto}{Salford, M3 6GD}
+\mobile{07871556664}
+\email{joseph.allen.1994@hotmail.com}
+\homepage{joezcool02.github.io}{} % The first argument is the URL for the clickable link, the second argument is the URL displayed in the template - this allows special characters to be displayed such as the tilde in this example
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+
+
+%----------------------------------------------------------------------------------------
+%	COVER LETTER
+%----------------------------------------------------------------------------------------
+
+% To remove the cover letter, comment out this entire block
+
+\clearpage
+
+\recipient{Laterooms.com}{The Peninsula\\
+Victoria Place\\
+Manchester\\
+M4 4FB} % Letter recipient
+\date{\today} % Letter date
+\opening{Dear Sir or Madam,} % Opening greeting
+\closing{Sincerely yours,} % Closing phrase
+\enclosure[Attached]{curriculum vit\ae{}} % List of enclosed documents
+
+\makelettertitle % Print letter title
+
+I am pleased to present my application for a position of Junior Data Scientist at LateRooms.com.
+
+I am a Manchester based Web Developer is studying Computer Science and Maths with Industrial Experience at the University of Manchester. I have been a Web Developer since my first year at University where I decided to start my own Web Development company and I am now aspiring to become a Data Scientist. I spend my free time creating Digital Art, getting paid to do Digital Marketing and participating in Data Science competitions.
+
+I am a strong believer in AGILE methodologies, while appreciating that other methods have their place, and have used SCRUM and Kanban professionally. I hold a firm belief that User Experience and Data Science are the key to the future of success at LateRooms.com and am always keen to bring these aspects into my development when appropriate. I am confident in running Retrospectives, Stand-ups and reflective meetings as I believe these are vital for improving team happiness and love opportunities to apply these methods.
+
+I have organized events of many scale from small Digital Art meet-ups to much larger scale University events with over 500 attendees. I am always eager to take part in events such as MancJS and MacnML and bring any learnings back into the business where possible. I have given a handful of talks such as "CSS as a digital art form" and "How to Fake it until you make it, a Digital Marketing Case Study".
+
+I am always looking to learn new things and have taken it upon myself to work through the Machine Learning course on Udacity. I see Data Science problems like crosswords in the back of a newspaper, I enjoy the fun puzzles they bring in my day-to-day life and occasionally participate in Kaggle competitions to assess my skills. I look forward to further utilizing my skills in R and python in a professional environment and am keen to learn continuous integration and continuous deployment.
+
+Thank you very much for your time and I am thankful for the opportunity of being considered for this position.
+
+Hope to hear from you soon.
+
+\makeletterclosing % Print letter signature
+
+%----------------------------------------------------------------------------------------
+\clearpage
+
+
+
+\makecvtitle % Print the CV title
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+\cventry{2013--Current}{Bachelor of Computer Science and Mathematics with Industrial Experience}
+{The University of Manchester}{}{Results Pending}{On track for 2:1}
+
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+\section{Experience}
+
+\cventry{2015--current}{Foundation UI Developer}{LateRooms.com}{Manchester}{}{Front-End Developer mainly focusing on the daily additions to the website using HTML,CSS,JS along with some larger deliverables such as: 
+\begin{itemize}
+\item Co-brands generator, an npm package which allows the creation of a new co-brand from a handful of inputs, this allowed me to utilize Sass to quickly generate a re-styling of the entire website.
+\item Geo-shapes dashboard, worked closely with the Data Science team to create a React dashboard which would allow them to quickly track the progress of their geo-shape experiments.
+\item SEO API, Built a CRUD API to update the SEO content on each page of the website using express.
+\item New platform, currently working on creating a new platform to run many brand off of simultaneously using React with styled components. This is an exciting new challenge for me and I am happy to be part of a large project from its conception.
+\end{itemize}}
+
+\cventry{2015--2015}{Website Developer}{Cantarus}{Manchester}{}{Front-End Developer and support staff. My main responsibility was delivering the website \url{www.xppower.com} from scratch and communicating with clients whilst also maintaining other sites.}
+
+%------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Skills}
+
+\cvitem{Methodology}{Kanban, Scrum, Agile, Waterfall, Lean}
+\cvitem{Frameworks}{React, Meteor}
+\cvitem{Text Editors}{Atom, VSCode, Brackets}
+\cvitem{Programming}{HTML, CSS, Javascript, ES6, BEM, Sass, LESS, Node, Git, GitHub, MySQL, Visual Basic C\#, C, Python, R, \LaTeX, Java}
+\cvitem{Testing}{Mocha, Chai, Jasmine}
+
+%----------------------------------------------------------------------------------------
+%	Projects
+%----------------------------------------------------------------------------------------
+
+\section{Projects}
+
+\cventry{2017}{Change Detection in Live Video}{}{}{}{Created an application to allow Digital Artists to experiment with various forms of change detection and set the layers to their choice of color, image, video, coded example or live camera. This involved user testing and the application of UX principles. \url{https://youtu.be/S8BN_aUCGc0}}
+
+\cventry{2012}{Extended Essay}{"To what extent is there a mathematical equation for beauty?"}{}{}{I worked independently researching the Golden Ratio and its occurrences in nature and decided to see by performing a survey on over a hundred individuals aged 3-18 whether I could prove that there was a mathematical equation for beauty, I utilized data analysis skills to then extrapolate information from the data and wrote a 5000 word report on the topic and presented my findings to a group of 30 people.}
+
+\end{document}
